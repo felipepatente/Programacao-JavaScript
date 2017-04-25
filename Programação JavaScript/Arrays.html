@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Home</title>
+	
+	<script type="text/JavaScript">
+		
+		numero = new Array(5);
+		
+		for(var i = 0; i < 5; i++){
+			numero[i] = (i * 2) + 3;
+		}
+		
+		document.write("Valores do array<br>");
+		for(i = 0; i < 5; i++){
+			document.write(numero[i] + " ");
+		}
+		
+		// Faz o mesmo que o loop de cima
+		document.write("<br>" + numero.join(" - "));
+		
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

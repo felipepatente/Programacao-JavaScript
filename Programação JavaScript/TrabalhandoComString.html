@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Home</title>
+	
+	<script type="text/JavaScript">
+		
+		frase = "Estamos no tutoria de javaScript";
+		achar = frase.indexOf("no"); // Retorna em que posição foi encontrada a palavra
+		tamanho = frase.length; // Retorna a quantidade de caractere na string "frase"
+		
+		document.write(frase + "<br>A frase em cima tem " + tamanho + " caractere<br>");
+		document.write("A palavra no foi encontra da posição " + achar + " na frase<br>");
+		
+		//Mudando de cor a string
+		document.write(frase.fontcolor('blue') + "<br>");
+		document.write(frase.fontcolor('red') + "<br>");
+		document.write(frase.fontcolor('cyan') + "<br>");
+		document.write(frase.fontcolor('margenta') + "<br>");
+		
+		//Pega um pedaço da string
+		document.write(frase.substr(8,10));
+		
+		
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
